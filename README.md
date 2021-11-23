@@ -12,4 +12,4 @@ Các thành viên:
 * Võ Công Lý - 1911166
   * git: https://github.com/vocongly
 * Nguyễn Hoàng Đăng Khoa - 1911158
-  * git: https://github.com/vocongly
+  * git: https://github.com/NguyenKhoa-dev
