@@ -1,0 +1,17 @@
+void QuickSort(int a[], int left, int right) {
+     int i, j, x;
+     x = a[(left+right)/2];
+     i = left; j = right;
+     while(i < j) {
+          while(a[i] < x) i++;
+          while(a[j] > x) j--;
+          if(i <= j) {
+               Swap(a[i],a[j]);
+               i++ ; j--;
+          }
+     }
+     if(left<j)
+          QuickSort(a, left, j);
+     if(i<right)
+          QuickSort(a, i, right);
+}
